@@ -1,11 +1,10 @@
 const express = require('express')
+const healthRouter = require('./routes/health')
 
 const app = express()
 
 app.use(express.json())
 
-app.get('/status', (_, res) => {
-    res.sendStatus(200)
-})
+app.use('/health', healthRouter)
 
 module.exports = app
