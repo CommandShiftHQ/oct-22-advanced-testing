@@ -1,0 +1,6 @@
+CREATE TABLE Transformers (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  allegiance VARCHAR(255) NOT NULL,
+  alt_mode VARCHAR(255) NOT NULL
+);
