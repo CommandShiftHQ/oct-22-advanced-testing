@@ -1,3 +1,3 @@
 exports.checkStatus = (_, res) => {
-    res.sendStatus(200)
-}
+  res.sendStatus(200);
+};
